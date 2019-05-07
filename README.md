@@ -65,7 +65,10 @@ $ cd phaser3-example
 # Install dependencies
 $ npm install
 
-# Start the local development server (on port 3000)
+# Build the source
+$ npm run build
+
+# Start the local development server (on port 8080)
 $ npm run dev
 
 # To publish a production build using docker use docker:publish
