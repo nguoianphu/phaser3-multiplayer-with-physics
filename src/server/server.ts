@@ -15,7 +15,7 @@ import Routes from './routes/routes'
 import IoStats from './socket/ioStats'
 import IoGame from './socket/ioGame'
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 
 // create 2 socket.io namespaces
 const ioNspGame = io.of('/G' /* short for stats */)
